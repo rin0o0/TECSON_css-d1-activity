@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="css/style-d1.css">
     <!-- 
         https://coolors.co/210b2c-55286f-bc96e6-d8b4e2-ae759f
         #210B2C
@@ -19,9 +20,10 @@
         <h1>Introduction to CSS</h1>
         <nav>
             <a href="#selector">CSS Selector</a>
-            <a href="#webforms">webform</a>
+            <a href="#webforms">Webforms</a>
             <a href="#card-component">Card Component</a>
             <a href="#css-unit">CSS Unit</a>
+            <a href="#font-properties">Font Properties</a>
             
         </nav>
     </header>
@@ -55,13 +57,17 @@
             <h2>Web Forms</h2>
             <form action="">
                 <div>
-                    <label for="name">Name:</label><input type="text" name="name" id="name" placeholder="Add name">    
+                    <label for="fname">FirstName:</label><input type="text" name="fname" id="fname" placeholder="Add first name" >    
+                    <label for="lname">LastName:</label><input type="text" name="lname" id="lname" placeholder="Add last name" >    
                 </div>
                 <div>
-                    <label for="address">Address:</label><input type="text" name="address" id="address" placeholder="Add address">
+                    <label for="address">Address:</label><input type="text" name="address" id="address" placeholder="Add address" >
                 </div>
                 <div>
-                    <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="Add email">
+                    <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="Add email" >
+                </div>
+                <div>
+                    <input type="button" value="submit">
                 </div>
                 
             </form>
@@ -76,15 +82,16 @@
             <hr>
             <img src="https://images.unsplash.com/photo-1682687982204-f1a77dcc3067?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="" width="200px" height="150px">
             <p>This is a random card description. You may add thing in this text related to image</p>
-        </div>
+        </section>
 
         <hr>
 
-
+        <!-- CSS UNIT -->
         <section id="css-unit">
-            <div style="background-color: #64B5F6;">
+            <h2>CSS Units</h2>
+            <div>
                 <p>Page width</p>
-                <div style="background-color: #F57C00;">Content width</div>
+                <div>Content width</div>
             </div>
 
             <div>
@@ -93,8 +100,88 @@
             </div>
         </section>
         
+        <hr>
+
+        <section id="font-properties">
+            <h2>Font Properties</h2>
+            <div>
+                <div>
+                    <h3>Text Decoration</h3>
+                    <p>Solid</p>
+                    <p>Underline</p>
+                    <p>linethrough</p>
+                </div> 
+                <div>
+                    <h3>Text Transform</h3>
+                    <p>uppercase</p>
+                    <p>LOWERCASE</p>
+                    <p>this is capitalize</p>
+                </div>       
+                <div>
+                    <h3>Text Align</h3>
+                    <p>Right</p>
+                    <p>Center</p>
+                    <p>Left</p>
+                </div>    
+                <div>
+                    <h3>Text Indent</h3>
+                    <p>This paragraph is indented using css text-indent. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt nisi aut incidunt esse dolorum eum ad sapiente. Veniam ullam necessitatibus corporis dicta assumenda</p>
+                </div>
+                <div>
+                    <h3>Line Height</h3>
+                    <p>Line height of 2rem</p>
+                    <p>Line height of 4rem</p>
+                </div>
+                <div>
+                    <h3>Letter Spacing</h3>
+                    <p>Letter spacing of .2rem</p>
+                    <p>Letter spacing of .4rem</p>
+                </div>
+                <div>
+                    <h3>Word Spacing</h3>
+                    <p>Word spacing of .5rem</p>
+                    <p>Word spacing of 1rem</p>
+                </div>
+                <div>
+                    <h3>Font Weight</h3>
+                    <p>Font weight: 300</p>
+                    <p>Font weight: 400</p>
+                    <p>Font weight: 500</p>
+                    <p>Font weight: 800</p>
+                    <p>Font weight: light</p>
+                    <p>Font weight: bold</p>
+                </div>
+                <div>
+                    <h3>Font Style</h3>
+                    <p>Italic</p>
+                    <p>Normal</p>
+                    <p>Oblique</p>
+                </div>
+                <div>
+                    <h3>Font Family</h3>
+                    <p>Font Family</p>
+                </div>
+            </div>
+        </section>
 
         
     </main>
+    <footer>
+        <div>
+            <h3>Introduction to CSS</h3>
+            <a href="#selector">CSS Selector</a>
+            <a href="#webforms">Webforms</a>
+            <a href="#card-component">Card Component</a>
+            <a href="#css-unit">CSS Unit</a>
+            <a href="#font-properties">Font Properties</a>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <p>Cavite, Philippines</p>
+            <p>info@test.com</p>
+            <p>+63 987 111 1234</p>
+            <p>&copy;2023 Copyright; SDCA</p>
+        </div>
+    </footer>
 </body>
 </html>
