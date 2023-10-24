@@ -1,0 +1,44 @@
+
+/* https://coolors.co/210b2c-55286f-bc96e6-d8b4e2-ae759f
+#210B2C
+#55286F
+#BC96E6
+#D8B4E2
+#AE759F */
+
+ /* Element Selector */
+li {
+    color: blue;
+}
+
+/* ID Selector */
+#selector {
+    background-color: rgb(0, 153, 255);
+}
+
+/* Class Selector */
+.class-name {
+    font-size: 30px;
+}
+
+/* Universal Selector */
+* {
+    font-family:'Arial';
+}
+
+
+/* Pseudo-class Selector */
+li:first-child {
+    text-decoration: underline;
+}
+
+/* Child Selector */
+div > li {
+    background-color: pink;
+}
+
+/* Descendant Selector */
+section li {
+    font-family: "times new roman", sans-serif;
+}
+
